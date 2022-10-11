@@ -1,0 +1,225 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Poppins&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* navbar */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  max-width: 90%;
+}
+
+nav .logo {
+  width: 100px;
+}
+
+nav .actions {
+  width: 200px;
+}
+
+.nav-items {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.nav-items .nav-item:first-child {
+  color: #fe6139;
+}
+
+nav .menu-btn{
+  display:none;
+}
+
+/* hero section */
+.hero-section {
+  display: flex;
+  max-width: 90%;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.left-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.left-section h3 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.left-section h3 > img {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.left-section h1 {
+  font-family: "Fredoka One";
+  font-size: 60px;
+  margin-bottom: 30px;
+}
+
+.left-section .sub-headlines {
+  margin-left: 40px;
+  margin-bottom: 30px;
+}
+
+.left-section .sub-headlines .sub-headline {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 20px;
+}
+
+.left-section .sub-headlines .sub-headline img {
+  background-color: #fe6139;
+  border-radius: 50px;
+  padding: 5px;
+  font-size: 14px;
+  margin-right: 10px;
+  width: 30px;
+}
+
+.left-section .text {
+  color: #7e7e7e;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+.left-section .action-btn {
+  padding: 10px 20px;
+  background: #e85b31;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.right-section {
+  flex: 1;
+  position: relative;
+}
+
+.right-section .headphone-div .discount {
+  position: relative;
+  left: 150px;
+  top: 200px;
+  width: 120px;
+}
+
+.right-section .headphone-div .discount-content {
+  position: relative;
+  left: 180px;
+  top: 100px;
+  color: #fff;
+}
+
+.right-section .headphone-div .headphone {
+  width: 400px;
+  position: relative;
+  left: 200px;
+  top: -200px;
+  z-index: -2;
+}
+
+.right-section .dots {
+  display: flex;
+  align-items: center;
+  width: 300px;
+  position: relative;
+  top: -200px;
+  left: 200px;
+  justify-content: end;
+}
+
+.right-section .dots .dot {
+  width: 25px;
+  height: 25px;
+  background: #e85b31;
+  border-radius: 50px;
+  margin-right: 20px;
+}
+
+.right-section .dots .yellow-dot {
+  color: yellow;
+}
+
+.right-section .dots .tomato-dot {
+  color: tomato;
+}
+
+.right-section .dots .black-dot {
+  color: #000;
+}
+
+.right-section .action-btn {
+  position: relative;
+  left: 200px;
+  top: -150px;
+  padding: 10px 20px;
+  background: #e85b31;
+  outline: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 50px;
+  margin-left: 150px;
+}
+
+/* mobile responsive */
+
+@media only screen and (max-width: 992px) {
+
+    body
+    {
+      overflow-x:hidden;
+      overflow-y:hidden;
+    }
+
+    nav{
+      margin: 20px auto;
+      max-width: 90%;
+    }
+
+    nav .nav-items{
+      background: #e85b31;
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 80px;
+    }
+
+    nav .menu-btn{
+      display:block;
+    }
+
+    .hero-section {
+      display: flex;
+      max-width: 90%;
+      margin: 0 auto;
+      align-items: center;
+      flex-direction: column;
+      justify-content:center;
+    }
+
+} 
