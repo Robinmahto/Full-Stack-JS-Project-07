@@ -7,7 +7,7 @@
   - Learn to making background images responsive.
   - Total time taken 5hr to complete.
 ### Screenshot
-![assignment 07](product-landing-page-desktop.png)
+![assignment 07](product-home-page-desktop.png)
 
 ### Mobile Responsive
-![assignment 07](product-landing-page-mobile.png)
+![assignment 07](product-home-page-mobile.png)
