@@ -137,7 +137,7 @@ nav .menu-btn {
   width: 400px;
   position: relative;
   left: 200px;
-  top: -200px;
+  top: -150px;
   z-index: -2;
 }
 
@@ -238,34 +238,39 @@ nav .menu-btn {
   nav .menu-btn {
     font-size: 30px;
   }
+
+   .hero-section .right-section{
+     margin-top: 10px;
+   }
+
   .right-section .headphone-div .headphone {
     position: relative;
-    left: 100px;
+    left: 10px;
     top: -130px;
   }
 
   .right-section .headphone-div .discount {
     position: relative;
-    left: 70px;
-    top: 250px;
+    left: 2px;
+    top: 300px;
   }
 
   .right-section .headphone-div .discount-content {
     position: relative;
-    left: 100px;
-    top: 150px;
+    left: 30px;
+    top: 200px;
     color: #fff;
   }
 
   .right-section .dots {
     position: relative;
     top: -130px;
-    left: 90px;
+    left: 1px;
   }
 
   .right-section .action-btn {
     position: relative;
     top: -100px;
-    left: 90px;
+    left: 1px;
   }
 }
