@@ -1,12 +1,13 @@
-# Assignment - 07
+# Product-Landing-Page
 
-## Project 07 [Live Link](https://full-stack-js-projects-07.netlify.app/)
+## Project 07 [Live Link](https://product-landing-pages-07.netlify.app/)
 
 - ### skills used in project
   - Learn media query, flexbox etc.
   - Learn to making background images responsive.
   - Total time taken 5hr to complete.
-### Screenshot
+## ScreenShot
+### Desktop
 ![assignment 07](product-home-page-desktop.png)
 
 ### Mobile Responsive
